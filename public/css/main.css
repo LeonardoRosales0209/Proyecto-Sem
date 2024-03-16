@@ -30,11 +30,14 @@
 #GPTAnswer {
     margin-top: 20px;
     font-size: 18px;
-    color: #333;
+    color: white;
     position: absolute;
-    top: 300px;
-    right: 30px;
-    width: 100px;
+    top: 450px;
+    left: 30px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: 1px solid rebeccapurple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #live2d{

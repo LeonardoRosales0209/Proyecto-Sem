@@ -27,7 +27,7 @@ const videoElement = document.querySelector(".input_video"),
         view: document.getElementById("live2d"),
         autoStart: true,
         backgroundAlpha: 0,
-        backgroundColor: 0xffffff,
+        backgroundColor: 0xffc0cb,
         resizeTo: window,
     });
 
@@ -36,7 +36,7 @@ const videoElement = document.querySelector(".input_video"),
     currentModel.scale.set(1);
     currentModel.interactive = true;
     currentModel.anchor.set(1, 1);
-    currentModel.position.set(window.innerWidth * 0.8, window.innerHeight * 1);
+    currentModel.position.set(window.innerWidth * 1, window.innerHeight * 1);
 
     // Add events to drag model
     currentModel.on("pointerdown", (e) => {
